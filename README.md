@@ -1,30 +1,35 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Recycling Collection Manager
 
-## Getting Started
+#todo short description
 
-First, run the development server:
+⚠️ _Warning_: this is a portfolio project and therefore has limited features.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+# Idea
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+A web app that connects households, collectors, and recycling collection centers.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+# Goal
 
-## Learn More
+Make an app in Next.js
 
-To learn more about Next.js, take a look at the following resources:
+# Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Next.js](https://nextjs.org) (Node + React)
+- #todo design system/CSS library
+- #todo API/backend (business logic)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+# Features
 
-## Deploy on Vercel
+# Crative process
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# Changelog
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+# Roadmap
+
+- Upload photos of separate recyclables - file upload, image processing
+- Public website with anonymous aggregate data (e.g. "green" neighbourhoods) - SEO, Google Analytics
+- Recyclate report w/ quantity per type (e.g. 8 kg plastic) and grade (A+ = clean & 100% recyclable)
+- Automatic routing (maximize collection, minimize distance) - travelling salesman problem?
+- Request pick up or wait for next scheduled pick up
+- Send messages to assigned collector/past collectors - say thank you, develop connection
+- Receive notification of next visit, collector nearby, collector arrived, recyclables sorted etc.
